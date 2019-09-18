@@ -6,6 +6,16 @@ let imagensCarro = [];
 let trilhaSonora;
 let somColidiu;
 let somPonto;
+ 
+function plays(){
+   
+    fill(0);
+    textSize(15);
+    text("jogador 1",230,24);
+  fill(0);
+    textSize(15);
+    text("jogador 2",230,387);
+}
 
 function preload(){
 trilhaSonora = loadSound("sons/trilha.mp3");
